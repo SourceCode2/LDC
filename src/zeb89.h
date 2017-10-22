@@ -1,5 +1,6 @@
 #ifndef ZEB89_H
 #define ZEB89_H
+#define FRASI_ZEB = 3
 #include <string>
 class zeb89 {
 public:
@@ -11,6 +12,6 @@ private:
     std::string frase;
     std::string frase_figlet;
   };
-  FRASI *lista = new FRASI[3];
+  FRASI *lista = new FRASI[FRASI_ZEB];
 };
 #endif // ZEB89_H
