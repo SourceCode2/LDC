@@ -1,0 +1,4 @@
+#!/bin/bash
+g++ -c zeb89.cpp
+ar -r libLDC.a zeb89.o
+g++ main.cpp -L. -lLDC
